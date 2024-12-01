@@ -1,0 +1,122 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Archive;
+    line-height: 1.6;
+    background-color: #f4f9f8;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background: #70045f;
+    color: white;
+}
+
+/*
+#rectangle{
+    width:2000px;
+    height:1000px;
+    background:blue;
+}
+*/
+
+header .logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header .cta {
+    background: white;
+    color: #70045f;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.hero {
+    text-align: center;
+    padding: 4rem 2rem;
+    background: #d6e7ee;
+    color: #70045f;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.hero .cta-buttons button {
+    margin: 0 0.5rem;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.hero .cta-buttons button:first-child {
+    background: #70045f;
+    color: white;
+}
+
+.hero .cta-buttons button:last-child {
+    background: white;
+    color: #70045f;
+}
+
+.mission, .services, .pricing {
+    padding: 3rem 2rem;
+    text-align: center;
+}
+
+.service-container, .pricing-container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+
+}
+
+.service, .plan {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background: #70045f;
+    color: white;
+    margin-top: 2rem;
+}
